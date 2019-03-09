@@ -1,6 +1,3 @@
-var buttonTest;
-
-buttonTest = document.getElementById('button-test');
 const buttonRock = document.getElementById('button-rock');
 const buttonPaper = document.getElementById('button-paper');
 const buttonScissors = document.getElementById('button-scissors');
@@ -66,7 +63,6 @@ function buttonClicked(argButtonName) {
   displayResult(playerMove, computerMove);
 }
 
-// buttonTest.addEventListener('click', function(){ buttonClicked('Guzik TEST'); });
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
 buttonPaper.addEventListener('click', function(){ buttonClicked('papier'); });
 buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); });
