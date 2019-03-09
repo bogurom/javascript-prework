@@ -10,7 +10,7 @@ function buttonClicked(argButtonName) {
   console.log(argButtonName + ' został kliknięty');
 
 
-  var argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+  var argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
   /**
    * Describe this function...
