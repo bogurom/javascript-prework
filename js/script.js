@@ -1,4 +1,4 @@
-var argButtonName, buttonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
+var buttonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
 
 buttonTest = document.getElementById('button-test');
 buttonRock = document.getElementById('button-rock');
