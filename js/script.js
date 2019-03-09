@@ -9,9 +9,6 @@ function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
 
-
-  var playerInput;
-
   /**
    * Describe this function...
    */
