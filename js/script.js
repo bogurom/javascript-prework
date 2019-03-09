@@ -1,10 +1,9 @@
-
-var buttonScissors, buttonTest;
+var buttonTest;
 
 buttonTest = document.getElementById('button-test');
 const buttonRock = document.getElementById('button-rock');
 const buttonPaper = document.getElementById('button-paper');
-buttonScissors = document.getElementById('button-scissors');
+const buttonScissors = document.getElementById('button-scissors');
 
 /**
  * Describe this function...
