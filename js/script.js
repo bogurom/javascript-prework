@@ -1,8 +1,9 @@
-var buttonPaper, buttonRock, buttonScissors, buttonTest;
+
+var buttonRock, buttonScissors, buttonTest;
 
 buttonTest = document.getElementById('button-test');
 buttonRock = document.getElementById('button-rock');
-buttonPaper = document.getElementById('button-paper');
+const buttonPaper = document.getElementById('button-paper');
 buttonScissors = document.getElementById('button-scissors');
 
 /**
